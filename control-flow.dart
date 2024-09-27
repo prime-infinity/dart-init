@@ -7,6 +7,13 @@ void main() {
 
   //loop through a list
   for (int score in scores) {
+    if (score > 50) {
+      print('the score $score is greater tha 50');
+    }
+  }
+
+  for (int score in scores.where((s) => s > 50)) {
+    //similar to filter in JS
     print(score);
   }
 
