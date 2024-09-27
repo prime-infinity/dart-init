@@ -1,0 +1,12 @@
+name: dart_init
+description: first dart programs.
+version: 1.0.0
+repository: https://github.com/prime-infinity/dart-init
+
+environment:
+  sdk: ^3.5.3
+
+# Add regular dependencies here.
+dependencies:
+  http: ^1.2.2
+  # path: ^1.8.0
