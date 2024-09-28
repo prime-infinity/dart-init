@@ -17,4 +17,11 @@ void main() {
   new_scores.removeAt(2); //removes a value by its index
 
   print(new_scores.length);
+
+  //we can also use something like a spread operator in js
+  // Spread operator
+  var moreNumbers = [...scores, 6, 7, 8];
+
+  //we can also map
+  var doubledNumbers = scores.map((s) => s * 2);
 }
