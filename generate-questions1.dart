@@ -114,3 +114,10 @@ enum Operation {
     }
   }
 }
+
+/*
+ * Potential Enhancements:
+ * Handle division more carefully to avoid issues with non-integer results (e.g., use floating-point division).
+ * Add difficulty levels to control the range of operands.
+ * Include better logic for generating wrong options to avoid duplicates or negative numbers.
+ */
